@@ -1,8 +1,7 @@
-﻿
-Console.WriteLine("Input an integer\n");
-string a = Console.ReadLine();
-if(a.Length<3){
-    Console.WriteLine("There is no third number in the integer\n");
+﻿Console.WriteLine("Input a number\n");
+int a = Convert.ToInt32(Console.ReadLine());
+if (a==6 || a==7){
+    Console.WriteLine("Yes\n");
 }else{
-Console.WriteLine($"{a[2]}\n");
+    Console.WriteLine("No\n");
 }
